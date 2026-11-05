@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../../_app/immutable/entry/start.C9tdblHB.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/-iUXGSTa.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/lbtee6Tu.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/PM3t-wIz.js" rel="modulepreload">
+		<link href="../../_app/immutable/entry/app.CebnQJky.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/CKbuJUJd.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/BiB3ghXQ.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/g1-h-xuX.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DZkUl7p4.js" rel="modulepreload">
+		<link href="../../_app/immutable/nodes/0.CA0k7RQx.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/kILbQnO7.js" rel="modulepreload">
+		<link href="../../_app/immutable/nodes/6.fZmbOjiv.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DKEIOJYt.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/D3XL9zUx.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/BjrkUklP.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/C1jhX8Ps.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DyrCIm06.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/C0VICbPr.js" rel="modulepreload">
+		<!--e2jw2j--><!----><title>#4471 · what it shows: the problems inside one ticket · support kb</title>
+		<link href="../../_app/immutable/assets/runbook.BhhgOc_n.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Callout.yLErXQDM.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/6.BSmYQxV2.css" rel="stylesheet">
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents"><!--[--><!--[0--><!--[--><!--[--><div class="kb svelte-e2jw2j"><header><a class="crumb svelte-e2jw2j" href="/kb">support desk · kb</a> <h1 class="svelte-e2jw2j">#4471 · what it shows: the problems inside one ticket</h1> <p class="meta svelte-e2jw2j"><span>owner <b>pawelc</b></span> <span class="status proposed svelte-e2jw2j">proposed</span> <span class="svelte-e2jw2j">reviewed 2026-11-05 · 0 days ago</span></p></header> <!--[-1--><!--]--> <main><p>Ticket <a href="/kb/incidents/4471">#4471</a> was merged on subject lines, as <a href="/kb/decisions/0001-dedupe-by-subject">decision 0001</a> says to. Its page calls it one issue with one fix queued.
+The code under that page does not agree, and neither do the report bodies. This page splits the ticket into
+the problems it really holds, counts each one from a membership table, and files one ticket per problem.</p> <aside class="warn svelte-17bri61"><!---->Where this page and the incident page disagree, the code wins. The incident page is a claim written in
+September. The tables below are computed from the export at render time.<!----></aside><!----> <h2>What the code already says</h2> <p><code>causes.ts</code> decides a report’s cause from its tenant, the booking form the tenant runs and the channel the
+report came in on. It never reads the body. Run over the ticket it finds more than one cause, and its own
+table on the incident page marks the second one as “no ticket of its own”.</p> <table><thead><tr><th>causes.ts group</th><th>reports</th><th>kept under that problem</th><th>moved by a human reading the body</th><th>the incident page says</th></tr></thead><tbody><!--[--><tr><td><code>parser</code> (the ticket’s own cause)</td><td>379</td><td>373</td><td>6</td><td>one issue, fix queued</td></tr><tr><td><code>hint</code></td><td>33</td><td>33</td><td>0</td><td>nothing: merged into #4471 as if it were the same bug</td></tr><!--]--></tbody></table><!----> <h2>The problems</h2> <p>Every unique report in the export has exactly one row in the membership table: a problem, or an explicit
+bucket when the body describes no defect. The table below is built from that membership at render time.
+The export’s duplicates by id are removed first, the way <code>uniqueById</code> does it.</p> <p class="sum svelte-1op6c6"><strong>412</strong> unique reports merged into #4471
+  (<strong>427</strong> records in the export, duplicates by id removed) · <strong>3</strong> problems ·
+  snapshot of <code>2026-11-05T14:30:35+00:00</code></p> <table><thead><tr><th>problem</th><th>reports</th><th>tenants</th><th>channels</th><th>seen</th><th>causes.ts says</th><th>decided by</th><th>ticket</th></tr></thead><tbody><!--[--><tr><td><b>Shared date parser reads day-first tenants' dates month first</b><br/><span class="muted svelte-1op6c6">The shared parser reads every typed date month first, so a day-first tenant's bookings land on the day and month exchanged (parser cause in causes.ts).</span></td><td><strong>373</strong></td><td>11</td><td class="muted svelte-1op6c6">app ×201 · email ×147 · form ×25</td><td>2026-04-01 → 2026-10-04</td><td class="muted svelte-1op6c6">parser ×373</td><td class="muted svelte-1op6c6">causes.ts ×370 · adjudicator ×3</td><td><!--[-1-->not filed yet<!--]--></td></tr><tr><td><b>booking-v3 form hint prints MM/DD/YYYY but the field is read day first</b><br/><span class="muted svelte-1op6c6">booking-v3 prints the hint MM/DD/YYYY under its date field, people type month first, and the form reads it the tenant's day-first way, exchanging day and month (hint cause in causes.ts).</span></td><td><strong>33</strong></td><td>3</td><td class="muted svelte-1op6c6">form ×33</td><td>2026-04-17 → 2026-09-22</td><td class="muted svelte-1op6c6">hint ×33</td><td class="muted svelte-1op6c6">causes.ts ×33</td><td><!--[-1-->not filed yet<!--]--></td></tr><tr><td><b>Booking date shows one day earlier on some surfaces and for some recipients</b><br/><span class="muted svelte-1op6c6">A booked date is shown one calendar day earlier, weekday moving with it and month unchanged, on one surface or to one recipient but not another; consistent with a date-only booking rendered as a timestamp across a timezone or date boundary. A day/month swap cannot produce this.</span></td><td><strong>5</strong></td><td>5</td><td class="muted svelte-1op6c6">email ×3 · app ×2</td><td>2026-04-02 → 2026-10-04</td><td class="muted svelte-1op6c6">parser ×5</td><td class="muted svelte-1op6c6">adjudicator ×3 · lead ×2</td><td><!--[-1-->not filed yet<!--]--></td></tr><!--]--><!--[--><tr class="bucket svelte-1op6c6"><td class="svelte-1op6c6"><b>no-defect-described</b><br/><span class="muted svelte-1op6c6">not a problem of its own; listed so the total adds up</span></td><td class="svelte-1op6c6"><strong>1</strong></td><td class="svelte-1op6c6">1</td><td class="muted svelte-1op6c6">app ×1</td><td class="svelte-1op6c6">2026-05-19 → 2026-05-19</td><td class="muted svelte-1op6c6">parser ×1</td><td class="muted svelte-1op6c6">adjudicator ×1</td><td class="svelte-1op6c6">—</td></tr><!--]--></tbody><tfoot class="svelte-1op6c6"><tr><td class="svelte-1op6c6">total</td><td class="svelte-1op6c6"><strong>412</strong></td><td colspan="6" class="svelte-1op6c6">every unique report has exactly one row</td></tr></tfoot></table> <!--[-1--><!--]--><!----> <p><strong>Parser flips day and month.</strong> The shared parser reads every date month first. Tenants in day-first
+locales enter a day-first date, and it comes back with the two swapped. This is what the incident page
+describes, and it is the ticket’s own cause.</p> <p><strong>The booking-v3 hint tells people to type month first.</strong> Under its date field, booking-v3 prints <code>MM/DD/YYYY</code>. People at tenants on that form type what the hint says, and the form then reads it the
+tenant’s way. The symptom is the same swap, the fix is a different one, and it lives in the form, not the
+parser. <code>causes.ts</code> already separates it; the desk never gave it a ticket.</p> <p><strong>Dates move by one day.</strong> A handful of bodies do not describe a swap at all: the invite and the calendar
+disagree by one day in the same month, two cities see two different days for one meeting, or an invite
+arrives before the booking was made. The desk noted these as “read as a one-day move” and footnoted them
+under the parser. A swap cannot produce them, so they are filed as their own problem.</p> <h2>How the reports were placed</h2> <ol><li><strong>One id, one report.</strong> The export pages overlap; <code>uniqueById</code> keeps one record per id.</li> <li><strong>Cause by code.</strong> <code>causeOf</code> gives each report its cause from tenant, form and channel.</li> <li><strong>Blind read.</strong> Readers saw each body without its cause or intake tag and recorded the symptom it
+describes: what was entered, what was shown, expected and actual.</li> <li><strong>Adjudication.</strong> Where the body’s symptom is not a swap, or describes no defect, one adjudicator placed
+the report and wrote down why. Those reasons are in the membership table.</li> <li><strong>Second opinion.</strong> A fresh reader re-checked every disputed report and a fixed-seed sample of the rest.</li> <li><strong>One source of numbers.</strong> One script checks that every unique report is placed exactly once, that the
+total equals the export’s unique count, and that each ticket’s count equals the length of its id list.
+Nothing on this page or in the tickets is typed by hand.</li></ol> <p>The membership table, the per-ticket id lists and the script are in the repository linked below.</p> <h2>Where the kb disagrees with itself</h2> <ul><li>The incident page says one issue. <code>CauseTable</code> on the same page shows two causes.</li> <li><code>desk-notes.json</code> lists reports the desk read as a one-day move and keeps them under the parser. The
+bodies describe a different defect, so this page moves them.</li> <li>Decision 0001 merges by subject. <code>DedupeExplorer</code> shows the same subject with different causes and
+different subjects with the same cause. The decision is accepted and is not edited here; a new record
+should replace it.</li></ul> <h2>Tickets</h2> <ul><!--[--><li><!--[-1-->Shared date parser reads day-first tenants' dates month first (not filed yet)<!--]--> · 373 reports</li><li><!--[-1-->booking-v3 form hint prints MM/DD/YYYY but the field is read day first (not filed yet)<!--]--> · 33 reports</li><li><!--[-1-->Booking date shows one day earlier on some surfaces and for some recipients (not filed yet)<!--]--> · 5 reports</li><!--]--></ul><!----> <h2>Lessons</h2> <ul><li>A big ticket is not one bug until someone has read the bodies.</li> <li>A number that can be computed should be, from a table anyone can check.</li></ul> <!--[0--><p class="stamp svelte-1280m42">desk ref <b class="svelte-1280m42">DR-FD95-1YY7</b></p><!--]--><!----><!----></main> <footer class="svelte-e2jw2j">Pages are written by people. Tables and charts are built from data at render time.</footer></div><!--]--><!----><!--]--><!--]--> <!--[-1--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_1cjuwka = {
+						base: new URL("../..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../../_app/immutable/entry/start.C9tdblHB.js"),
+						import("../../_app/immutable/entry/app.CebnQJky.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 6],
+							data: [null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+  </body>
+</html>

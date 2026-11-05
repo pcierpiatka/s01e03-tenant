@@ -1,0 +1,2886 @@
+[
+ {
+  "report_id": "R-41200",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41201",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41202",
+  "problem_id": "P-shift",
+  "bucket": null,
+  "reason": "Body gives both dates: invite Tuesday 12 May, calendar Monday 11 May; same month, one day apart, weekdays consistent with 2026. A swap of 12 May would give 5 December, so this is a one-day move, not a swap. Desk footnote under parser overridden.",
+  "decided_by": "adjudicator"
+ },
+ {
+  "report_id": "R-41203",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41204",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41205",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41206",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41208",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41209",
+  "problem_id": "P-shift",
+  "bucket": null,
+  "reason": "Body says every June booking is 'one day off', with no dates. A one-day offset is a different symptom from a day/month exchange, which would push June bookings into other months, so it joins the one-day-move problem; the subject line is not evidence. Desk footnote under parser overridden.",
+  "decided_by": "adjudicator"
+ },
+ {
+  "report_id": "R-41210",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41211",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41212",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41213",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41214",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41215",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41216",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41217",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41218",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41219",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41220",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41221",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41222",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41223",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41224",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41225",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41227",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41228",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41229",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41230",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41231",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41232",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41233",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41234",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41235",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41236",
+  "problem_id": "P-shift",
+  "bucket": null,
+  "reason": "Body says the invite arrived before the booking was made and gives no date at all. That is a sequencing defect, not a date value, so neither the swap nor the one-day move fits. The desk read it as a one-day move; the body does not say so, and that footnote is overridden. Lead decision after second opinion: merged from P-invite-order into P-shift, because every concrete non-swap body shifts one day earlier on the side further west or closer to UTC, the signature of one mechanism. Provisional member: the body names no date; the desk filed it as a one-day move and an invite rendered a day early is what makes it appear to predate its booking.",
+  "decided_by": "lead"
+ },
+ {
+  "report_id": "R-41237",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41238",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41239",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41240",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41241",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41242",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41243",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41244",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41245",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41246",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41247",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41248",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41249",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41250",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41251",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41252",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41253",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41254",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41255",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41256",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41257",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41258",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41259",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41260",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41261",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41262",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41263",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41264",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41265",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41266",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41267",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41268",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41269",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41270",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41271",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41272",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41273",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41274",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41275",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41276",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41277",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41278",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41279",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41280",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41281",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41282",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41283",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41284",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41285",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41286",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41287",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41288",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41289",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41290",
+  "problem_id": null,
+  "bucket": "no-defect-described",
+  "reason": "Body asks whether there is a setting for 'my country writes the day first' and says nothing about any wrong date or booking. It is a feature request that implies the parser cause but describes no defect, so it is bucketed rather than counted as a report of one.",
+  "decided_by": "adjudicator"
+ },
+ {
+  "report_id": "R-41291",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41292",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41293",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41294",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41295",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41296",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41297",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41298",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41299",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41300",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41301",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41302",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41303",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41304",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41305",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41306",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41308",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41309",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41310",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41311",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41312",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41313",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41314",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41315",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41316",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41317",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41318",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41319",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41320",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41321",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41322",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41323",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41324",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41325",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41327",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41328",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41329",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41330",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41331",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41332",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41333",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41334",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41335",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41336",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41337",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41338",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41339",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41340",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41341",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41342",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41343",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41344",
+  "problem_id": "P-shift",
+  "bucket": null,
+  "reason": "Body says the Lisbon client got Tuesday and the Toronto client got Monday for the same meeting, which was then held twice. The day depends on the recipient's city, which neither a swap nor a uniform one-day move explains, so this is its own problem. Desk footnote under parser overridden. Lead decision after second opinion: merged from P-tz-split into P-shift, because every concrete non-swap body shifts one day earlier on the side further west or closer to UTC, the signature of one mechanism.",
+  "decided_by": "lead"
+ },
+ {
+  "report_id": "R-41345",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41346",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41347",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41348",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41349",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41350",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41351",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41352",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41353",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41354",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41355",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41356",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41357",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41358",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41359",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41360",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41361",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41362",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41363",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41364",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41365",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41366",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41367",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41368",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41369",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41370",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41371",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41372",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41373",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41374",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41375",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41376",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41377",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41378",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41379",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41380",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41381",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41382",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41383",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41384",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41385",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41386",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41387",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41388",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41389",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41390",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41391",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41392",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41393",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41394",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41395",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41396",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41397",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41398",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41399",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41400",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41401",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41402",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41403",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41404",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41405",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41406",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41408",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41409",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41410",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41411",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41412",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41413",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41414",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41415",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41416",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41417",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "Body says the software sent someone to an appointment 'on the wrong day' and gives no dates, so swap versus shift cannot be told from the body. A defect is described and nothing in it contradicts a swap, so the code's cause stands (ridge.clinic, da-DK, app channel: parser).",
+  "decided_by": "adjudicator"
+ },
+ {
+  "report_id": "R-41418",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41419",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41420",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41421",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41422",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41423",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41424",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41425",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41427",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41428",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41429",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41430",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41431",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41432",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41433",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41434",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41435",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41436",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41437",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41438",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41439",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41440",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41441",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41442",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41443",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41444",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41445",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41446",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41447",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41448",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41449",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41450",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41451",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41452",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41453",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41454",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41455",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41456",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41457",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41458",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41459",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41460",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41461",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41462",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41463",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41464",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41465",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41466",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41467",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41468",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41469",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41470",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41471",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41472",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41473",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41474",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41475",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41476",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41477",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41478",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41479",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41480",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41481",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41482",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41483",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41484",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41485",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41486",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41487",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41488",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41489",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41490",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41491",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41492",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41493",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41494",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41495",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41496",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41497",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41498",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41499",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41500",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41501",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41502",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41503",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41504",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41505",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41506",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41508",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41509",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41510",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41511",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41512",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41513",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41514",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "Body describes a workaround, telling clients the date in words ('the second Tuesday') because the product's dates cannot be relied on, and gives no concrete wrong date. A defect is implied, nothing contradicts a swap, so the code's cause stands (copper.studio, es-ES, app channel: parser).",
+  "decided_by": "adjudicator"
+ },
+ {
+  "report_id": "R-41515",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41516",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41517",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41518",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41519",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41520",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41521",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41522",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41523",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41524",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41525",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41527",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41528",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41529",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41530",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41531",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41532",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41533",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41534",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41535",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41536",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41537",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41538",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41539",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41540",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41541",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41542",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41543",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41544",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41545",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41546",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41547",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41548",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41549",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41550",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41551",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41552",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41553",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41554",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41555",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41556",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41557",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41558",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41559",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41560",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41561",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41562",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41563",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41564",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41565",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41566",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41567",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41568",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41569",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41570",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41571",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41572",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41573",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41574",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41575",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41576",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41577",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41578",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41579",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41580",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41581",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41582",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41583",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41584",
+  "problem_id": "P-hint",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41585",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41586",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41587",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41588",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41589",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41590",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41591",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41592",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41593",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41594",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41595",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41596",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41597",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41598",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41599",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41600",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41601",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41602",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41603",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41604",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41605",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41606",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41608",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41609",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41610",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41611",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41612",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41613",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41614",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41615",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "Body says October bookings came through for January, months only. A three-month move is what a day/month swap does to 1 October (1/10 read as 10/1); no other known defect moves a booking by months, so the code's cause stands (stone.and.sons, en-IE, email: parser). That the reporter welcomes the result does not change that a defect is described.",
+  "decided_by": "adjudicator"
+ },
+ {
+  "report_id": "R-41616",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41617",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41618",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41619",
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "body describes a day/month swap; parser vs hint by tenant form and channel (causes.ts)",
+  "decided_by": "causes.ts"
+ },
+ {
+  "report_id": "R-41620",
+  "problem_id": "P-shift",
+  "bucket": null,
+  "reason": "Body says Tuesday 6 October showed as Monday. 6 October 2026 is a Tuesday and the Monday is 5 October; a swap would give 10 June, a different month the reporter would have noticed. One-day move. Desk footnote under parser overridden.",
+  "decided_by": "adjudicator"
+ }
+]

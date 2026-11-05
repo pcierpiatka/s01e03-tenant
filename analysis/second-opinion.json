@@ -1,0 +1,417 @@
+{
+ "seed": 4471,
+ "checked": [
+  {
+   "report_id": "R-41202",
+   "current": "P-shift",
+   "set": "disputed",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Invite Tuesday 12 May, calendar Monday 11 May: both 2026 weekdays check out, same month, one day apart. A swap of 12/5 would give 5 December. One-day shift, calendar earlier than invite."
+  },
+  {
+   "report_id": "R-41209",
+   "current": "P-shift",
+   "set": "disputed",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "'Every booking in June is one day off': a one-day offset, which a day/month exchange cannot produce (it would move June bookings into other months). No concrete date; 'only June' is unexplained, so medium confidence."
+  },
+  {
+   "report_id": "R-41236",
+   "current": "P-invite-order",
+   "set": "disputed",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "'The invite arrived before I made the booking': an ordering anomaly, no date value quoted. Under the current problem set P-invite-order is the honest placement; see structural note, this is plausibly the invite's date rendered one day early."
+  },
+  {
+   "report_id": "R-41290",
+   "current": "no-defect-described",
+   "set": "disputed",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Asks whether a 'my country writes the day first' setting exists. No wrong date, no booking, nothing went wrong. Feature request, bucket stands (worth linking to P-parser as related, not counting)."
+  },
+  {
+   "report_id": "R-41344",
+   "current": "P-tz-split",
+   "set": "disputed",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Lisbon client got Tuesday, Toronto client got Monday for one meeting. The day depends on the viewer's city and the western viewer sees the earlier day. Not a swap. Placement correct under current set; see structural note."
+  },
+  {
+   "report_id": "R-41417",
+   "current": "P-parser",
+   "set": "disputed",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "'Sent my mother to the dentist on the wrong day', no dates. A defect is described and nothing contradicts a swap; ridge.clinic da-DK app channel gives parser. Keeping the code's cause is the consistent rule; low confidence by nature."
+  },
+  {
+   "report_id": "R-41514",
+   "current": "P-parser",
+   "set": "disputed",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Reporter now tells clients dates in words because the product's dates cannot be trusted. Defect implied, no date given, nothing contradicts a swap; copper.studio es-ES app channel gives parser. Low confidence, same rule as R-41417."
+  },
+  {
+   "report_id": "R-41615",
+   "current": "P-parser",
+   "set": "disputed",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "'October bookings came through for January': a move of months. Only a swap moves a booking by months (1/10 read as 10 Jan); a one-day shift cannot. stone.and.sons en-IE email gives parser."
+  },
+  {
+   "report_id": "R-41620",
+   "current": "P-shift",
+   "set": "disputed",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Tuesday 6 October (correct 2026 weekday) showed as Monday. A swap gives Wednesday 10 June, not a Monday. One day earlier, same month: one-day shift."
+  },
+  {
+   "report_id": "R-41201",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "4 July went out on 7 April: day and month exchanged. harbour.dental en-GB app: parser."
+  },
+  {
+   "report_id": "R-41204",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Agreed Monday 12 October, invite Thursday 10 December: 12/10 read as 10/12, both weekdays correct for 2026. Swap. kettle.books nl-NL email: parser."
+  },
+  {
+   "report_id": "R-41220",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 6 May, people turned up 5 June: swap. nine.lanterns pl-PL app: parser."
+  },
+  {
+   "report_id": "R-41248",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Agreed Friday 8 May, invite Wednesday 5 August: 8/5 read as 5/8, weekdays correct. Swap. long.table it-IT runs booking-v2 (hint DD/MM), so form channel is still parser."
+  },
+  {
+   "report_id": "R-41249",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Came 10 November instead of 11 October: 11/10 read as 10/11. Swap. morrow.tax fr-FR email: parser."
+  },
+  {
+   "report_id": "R-41254",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Reminder for 8 April arrived for 4 August: swap. stone.and.sons en-IE app: parser."
+  },
+  {
+   "report_id": "R-41280",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "11 January shown as 1 November: swap. harbour.dental en-GB app: parser."
+  },
+  {
+   "report_id": "R-41281",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 7 June, invite 6 July: swap. alder.physio de-DE email: parser."
+  },
+  {
+   "report_id": "R-41294",
+   "current": "P-hint",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Thursday 5 November showed as Monday 11 May: 5/11 read as 11/5, weekdays correct. Swap. pale.harbour pt-PT on booking-v3 via form: hint."
+  },
+  {
+   "report_id": "R-41300",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 12 October, invite 10 December: swap. long.table it-IT email: parser."
+  },
+  {
+   "report_id": "R-41305",
+   "current": "P-hint",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 9 August, invite 8 September: swap. copper.studio es-ES on booking-v3 via form: hint."
+  },
+  {
+   "report_id": "R-41308",
+   "current": "P-hint",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 5 March, people came 3 May: swap. alder.physio de-DE on booking-v3 via form: hint."
+  },
+  {
+   "report_id": "R-41310",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Invite for 12 July landed on 7 December: swap. morrow.tax fr-FR app: parser."
+  },
+  {
+   "report_id": "R-41325",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Reminder for 12 June arrived for 6 December: swap. copper.studio es-ES app: parser."
+  },
+  {
+   "report_id": "R-41332",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 9 January, people came 1 September: swap. nine.lanterns pl-PL app: parser."
+  },
+  {
+   "report_id": "R-41353",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "3 August shown as 8 March: swap. alder.physio de-DE email: parser."
+  },
+  {
+   "report_id": "R-41364",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 1 October, people came 10 January: swap. ridge.clinic da-DK email: parser."
+  },
+  {
+   "report_id": "R-41366",
+   "current": "P-hint",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Sunday 11 October showed as Tuesday 10 November: 11/10 read as 10/11, weekdays correct. Swap. alder.physio booking-v3 via form: hint."
+  },
+  {
+   "report_id": "R-41379",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 10 December, people came 12 October: swap. harbour.dental en-GB app: parser."
+  },
+  {
+   "report_id": "R-41385",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "5 December turned into 12 May: swap. harbour.dental en-GB app: parser."
+  },
+  {
+   "report_id": "R-41389",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Wednesday 4 February showed as Thursday 2 April: 4/2 read as 2/4, weekdays correct. Swap. ridge.clinic da-DK email: parser."
+  },
+  {
+   "report_id": "R-41408",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "12 November shown as 11 December: 12/11 read as 11/12. Swap. kettle.books nl-NL app: parser."
+  },
+  {
+   "report_id": "R-41416",
+   "current": "P-hint",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Reminder for 1 November arrived for 11 January: swap. pale.harbour booking-v3 via form: hint."
+  },
+  {
+   "report_id": "R-41439",
+   "current": "P-hint",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 3 January, invite 1 March: swap. alder.physio booking-v3 via form: hint."
+  },
+  {
+   "report_id": "R-41448",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Tuesday 4 August showed as Wednesday 8 April: 4/8 read as 8/4, weekdays correct. Swap. nine.lanterns pl-PL email: parser."
+  },
+  {
+   "report_id": "R-41458",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 2 September, invite 9 February: swap. morrow.tax fr-FR app: parser."
+  },
+  {
+   "report_id": "R-41465",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Invite for 10 August landed on 8 October: swap. pale.harbour pt-PT app: parser."
+  },
+  {
+   "report_id": "R-41475",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 2 July, invite 7 February: swap. morrow.tax fr-FR app: parser."
+  },
+  {
+   "report_id": "R-41499",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "3 June turned into 6 March: swap. lantern.row cs-CZ via app channel: parser (intake's hint tag came from an en-US browser, which the rule ignores)."
+  },
+  {
+   "report_id": "R-41516",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Came 7 December instead of 12 July: swap. stone.and.sons en-IE via email: parser (hint only applies on the form channel)."
+  },
+  {
+   "report_id": "R-41530",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 7 March, people came 3 July: swap. kettle.books nl-NL app: parser."
+  },
+  {
+   "report_id": "R-41532",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 5 August, invite 8 May: swap. pale.harbour pt-PT email: parser."
+  },
+  {
+   "report_id": "R-41534",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Saturday 5 December showed as Tuesday 12 May: 5/12 read as 12/5, weekdays correct. Swap. nine.lanterns pl-PL email: parser."
+  },
+  {
+   "report_id": "R-41535",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 5 August, invite 8 May: swap. stone.and.sons en-IE app: parser."
+  },
+  {
+   "report_id": "R-41549",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Friday 3 July showed as Saturday 7 March: 3/7 read as 7/3, weekdays correct. Swap. harbour.dental en-GB app: parser."
+  },
+  {
+   "report_id": "R-41562",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Booked 10 September, people came 9 October: 10/9 read as 9/10. Swap. stone.and.sons en-IE app: parser."
+  },
+  {
+   "report_id": "R-41581",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Came 10 May instead of 5 October: swap. ridge.clinic da-DK app: parser."
+  },
+  {
+   "report_id": "R-41583",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Came 2 May instead of 5 February: swap. nine.lanterns pl-PL app: parser."
+  },
+  {
+   "report_id": "R-41585",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "Came 11 January instead of 1 November: swap. copper.studio es-ES app: parser."
+  },
+  {
+   "report_id": "R-41589",
+   "current": "P-parser",
+   "set": "sample",
+   "verdict": "agree",
+   "proposed": null,
+   "reason": "4 August shown as 8 April: swap. harbour.dental en-GB email: parser."
+  }
+ ],
+ "changed": 0,
+ "structural": {
+  "recommendation": "merge into one problem",
+  "title": "Booking date shows one day earlier on some surfaces and for some recipients",
+  "summary": "A booked date is shown one calendar day earlier (weekday moving with it, month unchanged) on one surface or to one recipient but not another, consistent with a date-only booking being treated as a timestamp and rendered across a timezone or date boundary.",
+  "merges": [
+   "P-shift",
+   "P-tz-split",
+   "P-invite-order"
+  ],
+  "would_move": [
+   "R-41202",
+   "R-41209",
+   "R-41620",
+   "R-41344",
+   "R-41236"
+  ],
+  "reason": "Every concrete non-swap body shifts in the same direction: R-41202 (calendar Monday 11 May vs invite Tuesday 12 May), R-41620 (Tuesday 6 October shown as Monday) and R-41344 (Toronto viewer gets Monday, Lisbon viewer Tuesday) all show the earlier day, and the earlier day appears on the surface or in the city further west or closer to UTC. That is the signature of one mechanism, a local date serialised as midnight and rendered in another zone, not three. R-41344 is the same bug observed by two viewers at once rather than a distinct per-city defect. R-41209 ('one day off', no direction) fits the same family. R-41236 (invite arrived before the booking was made) names no date, but an invite stamped one day early is exactly what this mechanism produces, the desk filed it as a one-day move, and nothing else in the 412 reports suggests a genuine send-before-commit ordering bug; it is the weakest member and should be marked provisional. Fallback if the lead wants only body-proven members: merge P-shift and P-tz-split, keep R-41236 alone.",
+  "confidence": "high that P-shift and P-tz-split are one defect (three concrete bodies, same direction, same month); medium that R-41236 belongs with them (mechanism fits, body does not say)."
+ }
+}

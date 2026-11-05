@@ -1,0 +1,1 @@
+import{a as r,f as t}from"../chunks/BiB3ghXQ.js";import"../chunks/D3XL9zUx.js";import{o as m}from"../chunks/PM3t-wIz.js";import{p as s,a as i}from"../chunks/-iUXGSTa.js";import{i as e}from"../chunks/C0VICbPr.js";var f=t('<p><a href="/kb">support desk · kb</a></p>');function b(o,p){s(p,!1),m(()=>{location.replace("/kb")}),e();var a=f();r(o,a),i()}export{b as component};

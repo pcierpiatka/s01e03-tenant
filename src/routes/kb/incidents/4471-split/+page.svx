@@ -1,0 +1,91 @@
+---
+layout: runbook
+title: '#4471 · what it shows: the problems inside one ticket'
+owner: pawelc
+status: proposed
+reviewed: 2026-11-05
+signature: 'v1.eyJzdWIiOiI4NjU3IiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTM4ODkwNzksImV4cCI6MTc5Mzk3NTQ3OX0.IjnK4GVcgk5mYvG0KstalOqHUZaScLvdVs1CzAb4Xz0'
+---
+
+<script>
+  import ProblemTable from '#lib/kb/ProblemTable.svelte';
+  import CodeVsPage from '#lib/kb/CodeVsPage.svelte';
+  import IssueLinks from '#lib/kb/IssueLinks.svelte';
+  import RenderStamp from '#lib/kb/RenderStamp.svelte';
+  import Callout from '#lib/kb/Callout.svelte';
+</script>
+
+Ticket [#4471](/kb/incidents/4471) was merged on subject lines, as
+[decision 0001](/kb/decisions/0001-dedupe-by-subject) says to. Its page calls it one issue with one fix queued.
+The code under that page does not agree, and neither do the report bodies. This page splits the ticket into
+the problems it really holds, counts each one from a membership table, and files one ticket per problem.
+
+<Callout kind="warn">
+Where this page and the incident page disagree, the code wins. The incident page is a claim written in
+September. The tables below are computed from the export at render time.
+</Callout>
+
+## What the code already says
+
+`causes.ts` decides a report's cause from its tenant, the booking form the tenant runs and the channel the
+report came in on. It never reads the body. Run over the ticket it finds more than one cause, and its own
+table on the incident page marks the second one as "no ticket of its own".
+
+<CodeVsPage ticket={4471} />
+
+## The problems
+
+Every unique report in the export has exactly one row in the membership table: a problem, or an explicit
+bucket when the body describes no defect. The table below is built from that membership at render time.
+The export's duplicates by id are removed first, the way `uniqueById` does it.
+
+<ProblemTable ticket={4471} />
+
+**Parser flips day and month.** The shared parser reads every date month first. Tenants in day-first
+locales enter a day-first date, and it comes back with the two swapped. This is what the incident page
+describes, and it is the ticket's own cause.
+
+**The booking-v3 hint tells people to type month first.** Under its date field, booking-v3 prints
+`MM/DD/YYYY`. People at tenants on that form type what the hint says, and the form then reads it the
+tenant's way. The symptom is the same swap, the fix is a different one, and it lives in the form, not the
+parser. `causes.ts` already separates it; the desk never gave it a ticket.
+
+**Dates move by one day.** A handful of bodies do not describe a swap at all: the invite and the calendar
+disagree by one day in the same month, two cities see two different days for one meeting, or an invite
+arrives before the booking was made. The desk noted these as "read as a one-day move" and footnoted them
+under the parser. A swap cannot produce them, so they are filed as their own problem.
+
+## How the reports were placed
+
+1. **One id, one report.** The export pages overlap; `uniqueById` keeps one record per id.
+2. **Cause by code.** `causeOf` gives each report its cause from tenant, form and channel.
+3. **Blind read.** Readers saw each body without its cause or intake tag and recorded the symptom it
+   describes: what was entered, what was shown, expected and actual.
+4. **Adjudication.** Where the body's symptom is not a swap, or describes no defect, one adjudicator placed
+   the report and wrote down why. Those reasons are in the membership table.
+5. **Second opinion.** A fresh reader re-checked every disputed report and a fixed-seed sample of the rest.
+6. **One source of numbers.** One script checks that every unique report is placed exactly once, that the
+   total equals the export's unique count, and that each ticket's count equals the length of its id list.
+   Nothing on this page or in the tickets is typed by hand.
+
+The membership table, the per-ticket id lists and the script are in the repository linked below.
+
+## Where the kb disagrees with itself
+
+- The incident page says one issue. `CauseTable` on the same page shows two causes.
+- `desk-notes.json` lists reports the desk read as a one-day move and keeps them under the parser. The
+  bodies describe a different defect, so this page moves them.
+- Decision 0001 merges by subject. `DedupeExplorer` shows the same subject with different causes and
+  different subjects with the same cause. The decision is accepted and is not edited here; a new record
+  should replace it.
+
+## Tickets
+
+<IssueLinks />
+
+## Lessons
+
+- A big ticket is not one bug until someone has read the bodies.
+- A number that can be computed should be, from a table anyone can check.
+
+<RenderStamp {signature} />
