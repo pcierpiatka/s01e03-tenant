@@ -88,6 +88,13 @@ The membership table, the per-ticket id lists and the script are in the reposito
 
 <IssueLinks />
 
+## Desk update
+
+Engineering closed #4471 on 5 October. The parser is fixed, so the parser ticket is closed as done. The
+booking-v3 form is retired, so the hint ticket is closed as won't fix. The update names nothing for the
+one-day shift; that ticket is closed with #4471 and should be reopened if the symptom returns once the
+parser fix has shipped. Each ticket above shows its outcome, read from the same table as its count.
+
 ## Lessons
 
 - A big ticket is not one bug until someone has read the bodies.
