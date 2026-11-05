@@ -10,7 +10,7 @@
    "title": "Shared date parser reads day-first tenants' dates month first",
    "summary": "The shared parser reads every typed date month first, so a day-first tenant's bookings land on the day and month exchanged (parser cause in causes.ts).",
    "issue": "https://github.com/pcierpiatka/s01e03-tenant/issues/1",
-   "count": 373
+   "count": 374
   },
   {
    "id": "P-hint",
@@ -29,11 +29,6 @@
    "count": 5
   }
  ],
- "buckets": [
-  {
-   "bucket": "no-defect-described",
-   "count": 1
-  }
- ],
+ "buckets": [],
  "total": 412
 }

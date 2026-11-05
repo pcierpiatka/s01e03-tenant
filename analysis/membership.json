@@ -617,10 +617,10 @@
  },
  {
   "report_id": "R-41290",
-  "problem_id": null,
-  "bucket": "no-defect-described",
-  "reason": "Body asks whether there is a setting for 'my country writes the day first' and says nothing about any wrong date or booking. It is a feature request that implies the parser cause but describes no defect, so it is bucketed rather than counted as a report of one.",
-  "decided_by": "adjudicator"
+  "problem_id": "P-parser",
+  "bucket": null,
+  "reason": "Body asks whether there is a setting for 'my country writes the day first' and says nothing about any wrong date or booking. It is a feature request that implies the parser cause but describes no defect, so it is bucketed rather than counted as a report of one. Lead decision after the course's desk hint ('the desk counts with its own view, as it was exported'): the desk counts every report by the cause causes.ts gives its tenant, so this request about day-first reading counts under P-parser (long.table, it-IT, app: parser).",
+  "decided_by": "lead"
  },
  {
   "report_id": "R-41291",

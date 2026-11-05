@@ -506,5 +506,15 @@
   ],
   "affects": 5,
   "reason": "P-shift, P-tz-split and P-invite-order merged into P-shift on the second opinion's evidence (same direction in every concrete body; desk grouped all five as one-day move). R-41236 provisional. Second opinion changed 0 of 49 placements."
+ },
+ {
+  "rule": "no bucket: every report counts by its exported cause",
+  "decided_by": "lead",
+  "at": "2026-11-05T14:49:50+00:00",
+  "ids": [
+   "R-41290"
+  ],
+  "affects": 1,
+  "reason": "Claim attempt 1 was rejected with the desk hint 'Right problems. The desk counts with its own view, as it was exported.' The exported view (CauseTable over causes.ts) counts R-41290 under parser; the bucket no-defect-described is dropped."
  }
 ]
