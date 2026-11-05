@@ -35,9 +35,11 @@ table on the incident page marks the second one as "no ticket of its own".
 
 ## The problems
 
-Every unique report in the export has exactly one row in the membership table: a problem, or an explicit
-bucket when the body describes no defect. The table below is built from that membership at render time.
-The export's duplicates by id are removed first, the way `uniqueById` does it.
+Every unique report in the export has exactly one row in the membership table: the problem its body
+describes. The desk counts a report where its cause files it, so the one-day-move reports are counted under
+the parser as well and footnoted there, the way `readAs` does it on the incident page. The ticket counts
+overlap by exactly those reports, and the table says so. The table is built from the membership at render
+time; the export's duplicates by id are removed first, the way `uniqueById` does it.
 
 <ProblemTable ticket={4471} />
 
@@ -53,7 +55,8 @@ parser. `causes.ts` already separates it; the desk never gave it a ticket.
 **Dates move by one day.** A handful of bodies do not describe a swap at all: the invite and the calendar
 disagree by one day in the same month, two cities see two different days for one meeting, or an invite
 arrives before the booking was made. The desk noted these as "read as a one-day move" and footnoted them
-under the parser. A swap cannot produce them, so they are filed as their own problem.
+under the parser. A swap cannot produce them, so they get a ticket of their own, and they stay counted under
+the parser where the desk filed them.
 
 ## How the reports were placed
 
@@ -64,9 +67,10 @@ under the parser. A swap cannot produce them, so they are filed as their own pro
 4. **Adjudication.** Where the body's symptom is not a swap, or describes no defect, one adjudicator placed
    the report and wrote down why. Those reasons are in the membership table.
 5. **Second opinion.** A fresh reader re-checked every disputed report and a fixed-seed sample of the rest.
-6. **One source of numbers.** One script checks that every unique report is placed exactly once, that the
-   total equals the export's unique count, and that each ticket's count equals the length of its id list.
-   Nothing on this page or in the tickets is typed by hand.
+6. **One source of numbers.** One script checks that every unique report has exactly one row, that the rows
+   total the export's unique count, that each ticket's count equals the length of its id list, and that the
+   parser and hint tickets cover exactly the reports `causes.ts` gives those causes. Nothing on this page or
+   in the tickets is typed by hand.
 
 The membership table, the per-ticket id lists and the script are in the repository linked below.
 
@@ -74,7 +78,8 @@ The membership table, the per-ticket id lists and the script are in the reposito
 
 - The incident page says one issue. `CauseTable` on the same page shows two causes.
 - `desk-notes.json` lists reports the desk read as a one-day move and keeps them under the parser. The
-  bodies describe a different defect, so this page moves them.
+  bodies describe a different defect, so this page gives them a ticket of their own, and keeps the desk's
+  count where it is.
 - Decision 0001 merges by subject. `DedupeExplorer` shows the same subject with different causes and
   different subjects with the same cause. The decision is accepted and is not edited here; a new record
   should replace it.

@@ -3,7 +3,7 @@
   import problems from '#lib/data/problems-4471.json';
   import membership from '#lib/data/membership-4471.json';
   type Problem = { id: string; slug: string; title: string; summary: string; issue?: string };
-  const count = (pid: string) => (membership as { problem_id: string | null }[]).filter((m) => m.problem_id === pid).length;
+  const count = (pid: string) => (membership as { problem_id: string | null; alsoCountedUnder?: string[] }[]).filter((m) => m.problem_id === pid || (m.alsoCountedUnder ?? []).includes(pid)).length;
 </script>
 
 <ul>

@@ -10,7 +10,11 @@
    "title": "Shared date parser reads day-first tenants' dates month first",
    "summary": "The shared parser reads every typed date month first, so a day-first tenant's bookings land on the day and month exchanged (parser cause in causes.ts).",
    "issue": "https://github.com/pcierpiatka/s01e03-tenant/issues/1",
-   "count": 374
+   "cause": "parser",
+   "count": 379,
+   "primary": 374,
+   "alsoCounted": 5,
+   "alsoCountedUnder": []
   },
   {
    "id": "P-hint",
@@ -18,7 +22,11 @@
    "title": "booking-v3 form hint prints MM/DD/YYYY but the field is read day first",
    "summary": "booking-v3 prints the hint MM/DD/YYYY under its date field, people type month first, and the form reads it the tenant's day-first way, exchanging day and month (hint cause in causes.ts).",
    "issue": "https://github.com/pcierpiatka/s01e03-tenant/issues/2",
-   "count": 33
+   "cause": "hint",
+   "count": 33,
+   "primary": 33,
+   "alsoCounted": 0,
+   "alsoCountedUnder": []
   },
   {
    "id": "P-shift",
@@ -26,9 +34,18 @@
    "title": "Booking date shows one day earlier on some surfaces and for some recipients",
    "summary": "A booked date is shown one calendar day earlier, weekday moving with it and month unchanged, on one surface or to one recipient but not another; consistent with a date-only booking rendered as a timestamp across a timezone or date boundary. A day/month swap cannot produce this.",
    "issue": "https://github.com/pcierpiatka/s01e03-tenant/issues/3",
-   "count": 5
+   "cause": null,
+   "count": 5,
+   "primary": 5,
+   "alsoCounted": 0,
+   "alsoCountedUnder": [
+    "P-parser"
+   ]
   }
  ],
  "buckets": [],
- "total": 412
+ "total": 412,
+ "overlap": 5,
+ "sumOfTicketCounts": 417,
+ "note": "Each unique report has one primary row. A ticket also counts the reports the desk files under its cause (causes.ts) even when their body describes another problem; those are counted in both tickets and footnoted, as readAs does on the incident page."
 }

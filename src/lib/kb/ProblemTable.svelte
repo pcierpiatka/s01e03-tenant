@@ -8,7 +8,7 @@
   import { causeOf, uniqueById, type Report } from '#lib/kb/causes';
   import { tenantOf } from '#lib/kb/locales';
 
-  type Row = { report_id: string; problem_id: string | null; bucket: string | null; reason: string; decided_by: string };
+  type Row = { report_id: string; problem_id: string | null; bucket: string | null; reason: string; decided_by: string; alsoCountedUnder?: string[] };
   type Problem = { id: string; slug: string; title: string; summary: string; issue?: string };
 
   let { ticket }: { ticket: number } = $props();
@@ -19,7 +19,12 @@
   const placed = $derived(rows.filter((m) => byId.has(m.report_id)));
   const unplacedIds = $derived(unique.filter((r) => !rows.some((m) => m.report_id === r.id)).map((r) => r.id));
 
-  const of = (pid: string) => placed.filter((m) => m.problem_id === pid).map((m) => byId.get(m.report_id)!);
+  // A ticket covers the reports placed in it plus the ones the desk files under its cause and footnotes (readAs).
+  const of = (pid: string) => placed.filter((m) => m.problem_id === pid || (m.alsoCountedUnder ?? []).includes(pid)).map((m) => byId.get(m.report_id)!);
+  const primary = (pid: string) => placed.filter((m) => m.problem_id === pid).length;
+  const alsoHere = (pid: string) => placed.filter((m) => (m.alsoCountedUnder ?? []).includes(pid)).length;
+  const alsoElsewhere = (pid: string) => [...new Set(placed.filter((m) => m.problem_id === pid).flatMap((m) => m.alsoCountedUnder ?? []))];
+  const overlap = $derived(placed.reduce((n, m) => n + (m.alsoCountedUnder ?? []).length, 0));
   const inBucket = (b: string) => placed.filter((m) => m.bucket === b).map((m) => byId.get(m.report_id)!);
   const buckets = $derived([...new Set(placed.flatMap((m) => (m.bucket ? [m.bucket] : [])))].sort());
   const days = (rs: Report[]) => rs.map((r) => r.receivedAt.slice(0, 10)).sort();
@@ -32,7 +37,7 @@
   const decidedBy = (rs: Report[]) =>
     Object.entries(placed.filter((m) => rs.some((r) => r.id === m.report_id)).reduce<Record<string, number>>((n, m) => ({ ...n, [m.decided_by]: (n[m.decided_by] ?? 0) + 1 }), {}))
       .sort((a, b) => b[1] - a[1]).map(([c, n]) => `${c} ×${n}`).join(' · ');
-  const total = $derived((problems as Problem[]).reduce((n, p) => n + of(p.id).length, 0) + buckets.reduce((n, b) => n + inBucket(b).length, 0));
+  const total = $derived((problems as Problem[]).reduce((n, p) => n + primary(p.id), 0) + buckets.reduce((n, b) => n + inBucket(b).length, 0));
 </script>
 
 <p class="sum">
@@ -51,7 +56,7 @@
       {@const rs = of(p.id)}
       <tr>
         <td><b>{p.title}</b><br /><span class="muted">{p.summary}</span></td>
-        <td><strong>{rs.length}</strong></td>
+        <td><strong>{rs.length}</strong>{#if alsoHere(p.id)}<br /><span class="muted">{alsoHere(p.id)} of them read as a one-day move; filed here by tenant, counted here and in that ticket</span>{/if}{#if alsoElsewhere(p.id).length}<br /><span class="muted">all also counted under {alsoElsewhere(p.id).join(', ')}, where the desk filed them</span>{/if}</td>
         <td>{new Set(rs.map((r) => r.tenant)).size}</td>
         <td class="muted">{channels(rs)}</td>
         <td>{days(rs)[0]} → {days(rs).at(-1)}</td>
@@ -75,7 +80,8 @@
     {/each}
   </tbody>
   <tfoot>
-    <tr><td>total</td><td><strong>{total}</strong></td><td colspan="6" class:bad={total !== unique.length}>{total === unique.length ? 'every unique report has exactly one row' : `does not add up: ${unique.length - total} reports unaccounted for`}</td></tr>
+    <tr><td>unique reports</td><td><strong>{total}</strong></td><td colspan="6" class:bad={total !== unique.length}>{total === unique.length ? 'every unique report has exactly one row in the membership table' : `does not add up: ${unique.length - total} reports unaccounted for`}</td></tr>
+    <tr><td>sum of ticket counts</td><td><strong>{total + overlap}</strong></td><td colspan="6">{overlap} reports are counted in two tickets: where the desk filed them by cause, and where their symptom is fixed</td></tr>
   </tfoot>
 </table>
 

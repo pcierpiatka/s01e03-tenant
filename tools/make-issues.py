@@ -13,10 +13,15 @@ for p in counts['problems']:
     by = {}
     for m in members:
         if m['problem_id'] == p['id']: by[m['decided_by']] = by.get(m['decided_by'], 0) + 1
+    overlap = ''
+    if p.get('alsoCounted'):
+        overlap = f"\n\nOf these, **{p['alsoCounted']}** are filed here by the desk (their tenant's cause in `causes.ts`) but their bodies describe a one-day move; they are counted here, as the desk's `CauseTable` counts them, and also in the one-day-move ticket. The desk footnotes them on the incident page (`readAs`)."
+    if p.get('alsoCountedUnder'):
+        overlap = f"\n\nAll **{p['count']}** are also counted under {', '.join(p['alsoCountedUnder'])}, where the desk files them by tenant cause and footnotes them as a one-day move. This ticket is the one where the symptom they describe gets fixed."
     title = f"{p['title']} ({p['count']} {'report' if p['count']==1 else 'reports'})"
     body = f"""**Reports covered: {p['count']}** of {counts['unique']} unique reports merged into #4471 (export snapshot {counts['snapshotTakenAt']}, {counts['records']} records, duplicates by id removed).
 
-{p['summary']}
+{p['summary']}{overlap}
 
 **Placement.** {', '.join(f'{n} by {k}' for k, n in sorted(by.items(), key=lambda x: -x[1]))}. `causes.ts` in the kb settles `parser` vs `hint` by tenant locale, form and channel; a blind read of every body found the reports whose symptom is not a day/month swap, and one adjudicator placed those with a written reason. Every reason is in [`analysis/membership.json`](https://github.com/{repo}/blob/main/analysis/membership.json).
 

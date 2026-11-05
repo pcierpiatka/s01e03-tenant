@@ -516,5 +516,19 @@
   ],
   "affects": 1,
   "reason": "Claim attempt 1 was rejected with the desk hint 'Right problems. The desk counts with its own view, as it was exported.' The exported view (CauseTable over causes.ts) counts R-41290 under parser; the bucket no-defect-described is dropped."
+ },
+ {
+  "rule": "ticket counts follow the exported view (CauseTable)",
+  "decided_by": "lead",
+  "at": "2026-11-05T14:52:10+00:00",
+  "ids": [
+   "R-41202",
+   "R-41209",
+   "R-41236",
+   "R-41344",
+   "R-41620"
+  ],
+  "affects": 5,
+  "reason": "Claim attempt 2 was rejected with the same desk hint. The exported view is CauseTable: groupByCause gives parser 379 and hint 33, and readAs footnotes the five one-day-move reports inside the parser group. So the parser ticket covers those five too, and the one-day-move ticket covers them as its own. One primary row per report stays; the overlap is stated everywhere the numbers appear. This departs from the run brief's 'one row, one count' rule; the course wins and the run report notes it."
  }
 ]
